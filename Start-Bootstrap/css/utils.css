@@ -1,0 +1,12 @@
+.upperclass{
+    text-transform: uppercase;
+}
+
+.nav-items a{
+    text-decoration: none;
+    color: white;
+}
+
+.nav-items a:hover{
+    color: rgb(251, 255, 0);
+}
