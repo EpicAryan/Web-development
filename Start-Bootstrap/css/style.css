@@ -8,6 +8,8 @@
     font-family: 'Inter', sans-serif;
 }
 
+/* styling the Navbar */
+
 .mainNav{
     height: 8vh;
     width: 100vw;
@@ -43,4 +45,35 @@ ul li{
     padding: 0rem 2rem;
 }
 
+/* styling the header content */
+.head{
+    height: 75vh;
+    background-image: url(/Start-Bootstrap/img/header-bg.jpg);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+}
 
+.container{
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+}
+
+.subhead{
+    color: white;
+    font-size: 2.5rem;
+    font-style: italic;
+    font-weight: bold;
+    padding: 15px;
+}
+
+.mainhead{
+    color: white;
+    font-size: 4rem;
+    font-weight: 1000;
+    padding-bottom: 35px;
+}
