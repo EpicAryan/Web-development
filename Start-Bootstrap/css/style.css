@@ -77,3 +77,39 @@ ul li{
     font-weight: 1000;
     padding-bottom: 35px;
 }
+
+/* from here main body portion begin */
+/* styling of service section */
+
+#services{
+    height: 63vh;
+    background-color: white;
+    border: 2px solid black;
+}
+
+.serContainer{
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.text-center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 20vh;
+}
+
+.inner-container{
+    display: flex;
+    height: 36vh;
+}
+
+/* styling of portfolio section */
+
+#portfolio{
+    height: 150vh;
+    background-color: aquamarine;
+    border: 2px soild red;
+}

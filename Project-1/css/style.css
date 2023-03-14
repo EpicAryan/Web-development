@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@1,300&family=Heebo:wght@300&family=Inter:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Heebo', sans-serif;
+    font-family: 'Inter', sans-serif;
+}
+
+body{
+    background-image: url(/Project-1/pair\ programming.svg);
+    background-repeat: no-repeat;
+    background-position: right 2rem;
+}
+
+nav {
+    width: 100vw;
+    height: 6vh;
+    background-color: transparent;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    padding-left: 5rem;
+    box-sizing: border-box;
+    text-decoration: none;
+    color:black;
+}
+
+.collapse-bar {
+    width: 59%;
+}
+
+ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    box-sizing: border-box;
+    padding-right: 24rem;
+    text-transform: uppercase;
+}
+
+ul li {
+    list-style: none;
+
+}
+
+.nav-content{
+    text-decoration: none;
+    color:black;
+}
+
+.nav-content:hover {
+    color: #6927ff;
+}
+
+li button {
+    background-color: #6927ff;
+    border-color: #6927ff;
+    border-radius: 5px;
+    height: 2rem;
+    width: 5rem;
+}
+
+li button:hover {
+    background-color: blueviolet;
+    border-color: blueviolet;
+    font-size: larger;
+}
+
+.login{
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+/* navbar design completion */
+
+.side-box{
+    height: 30vh;
+    width: 25vw;
+    line-height: 2.5rem;
+    position: relative;
+    left: 19rem;
+    top: 7rem;
+}
+
+.head{
+    text-transform: uppercase;
+    color: #6927ff;
+    font-weight: bolder;
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    left:19rem;
+    display: flex;
+    justify-content: space-between;
+    width: 65vw;
+}
