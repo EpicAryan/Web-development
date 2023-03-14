@@ -28,12 +28,13 @@ nav {
 
 .logo {
     width: 40%;
-    display: flex;
-    justify-content: center;
-    padding-left: 5rem;
+    font-weight: bolder;
+    position: relative;
+    left: 19rem;
     box-sizing: border-box;
     text-decoration: none;
     color:black;
+    font-weight: bolder;
 }
 
 .collapse-bar {
@@ -98,6 +99,37 @@ li button:hover {
     text-transform: uppercase;
     color: #6927ff;
     font-weight: bolder;
+}
+
+.content-text{
+    font-size: 62px;
+    line-height: 5rem;
+    font-weight: 1000;
+}
+
+.side-box p{
+    line-height: 2rem;
+}
+
+.sec-button{
+    position: relative;
+    top: 1rem;
+}
+
+.sec-button button{
+    background-color: #6927ff;
+    border-color: #6927ff;
+    border-radius: 30px;
+    height: 3.5rem;
+    width: 9rem;
+    color: white;
+    font-size: 16px;
+}
+
+.sec-button button:hover{
+    background-color: white;
+    border-color: #6927ff;
+    color: #6927ff;
 }
 
 footer{
